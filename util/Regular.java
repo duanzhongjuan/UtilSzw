@@ -1,5 +1,3 @@
-package com.huafa.build.goods.util;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
