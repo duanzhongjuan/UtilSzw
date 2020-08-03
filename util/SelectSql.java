@@ -36,7 +36,6 @@ public class SelectSql{
         }
         //在这里减去拼接后最后一个字符串,最后一个字符串为 " "
         jieshou = jieshou.substring(0,jieshou.length()-1);
-        //System.gc();//希望jvm主动做一次gc回收
         return jieshou;//返回一个值就是sql语句
     }
 }
