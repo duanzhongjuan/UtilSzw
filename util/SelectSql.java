@@ -29,7 +29,6 @@ public class SelectSql{
                     //实际拼接sql语句,如果不为空就拼接sql语句
                     jieshou += sqlSelect[i] + NULL + params[i] + NULL;
                 }
-                System.out.println("执行了:"+(i+1)+"次");
             }
         }else {
             return "没有更多装载值";//返回一个报错信息,这里表示传进来的参数过多,然而sql语句关键值不能接收那么多字段
